@@ -33,7 +33,7 @@ void loop() {
 }
 
 void selectHSB() {
-  ++i %= 4;
+  i = (i+1)%4;
 }
 
 void stopScript(byte address) {
